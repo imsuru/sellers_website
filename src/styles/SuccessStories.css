@@ -1,0 +1,134 @@
+.success-stories {
+  padding: 0;
+  overflow-x: hidden;
+  margin-top: -4rem;
+}
+
+.success-stories .row.align-items-center {
+  max-width: 100%;
+  height: auto;
+  color: #212529;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+}
+
+.success-stories h2.text-center {
+  color: #b71c1c;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.success-stories .testimonial {
+  padding: 1.5rem;
+  position: relative;
+}
+
+.success-stories .quote-mark {
+  font-size: 4rem;
+  color: #0066cc;
+  position: absolute;
+  top: -1rem;
+  left: 0;
+  opacity: 0.2;
+}
+
+.success-stories .testimonial-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.success-stories .testimonial-author {
+  font-weight: 600;
+  color: #0066cc;
+  margin-bottom: 0;
+}
+
+.success-stories .testimonial-image {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.success-stories .testimonial-image img {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.success-stories .testimonial-image img:hover {
+  transform: scale(1.02);
+}
+
+.success-stories .carousel-control-prev,
+.success-stories .carousel-control-next {
+  width: 50px;
+  height: 50px;
+  background-color: rgba(0, 102, 204, 0.7);
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 1;
+  z-index: 10;
+}
+
+.success-stories .carousel-control-prev {
+  left: 10px;
+}
+
+.success-stories .carousel-control-next {
+  right: 10px;
+}
+
+.success-stories .carousel-control-prev:hover,
+.success-stories .carousel-control-next:hover {
+  background-color: rgba(0, 102, 204, 0.9);
+}
+
+.success-stories .carousel-control-prev-icon,
+.success-stories .carousel-control-next-icon {
+  width: 24px;
+  height: 24px;
+}
+
+.success-stories .carousel-indicators {
+  bottom: -2rem;
+}
+
+.success-stories .carousel-indicators button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #0066cc;
+  opacity: 0.5;
+  margin: 0 5px;
+}
+
+.success-stories .carousel-indicators button.active {
+  opacity: 1;
+}
+
+.success-stories .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 4rem;
+  position: relative;
+}
+
+.success-stories .carousel {
+  overflow: visible;
+  position: relative;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* Import Poppins font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
